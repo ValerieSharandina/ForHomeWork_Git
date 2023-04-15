@@ -481,6 +481,22 @@ git add .
 ```
 git commit -m 'add my instruction'
 ```
+11. Отправляем все изменения на удаленный репозиторий 
+```
+git push
+```
+получаем ответ 
+```
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 61.20 KiB | 10.20 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/KU3MI4-SPB/ForHomeWork_Git.git
+   fa5c551..aa8ad52  KU3MI4_SPB -> KU3MI4_SPB
+```
 
 * Предлагаем автору наши изменения **Pull request**
 
