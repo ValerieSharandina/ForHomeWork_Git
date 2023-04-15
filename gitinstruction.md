@@ -416,7 +416,76 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 4. Подтверждаем кнопкой **Authorize Visual-Stidio-Code**
 
+* Создаем репозиторий на **github.com**
 
+1. На сайте GitHub в правом верхнем углу нажимаем **"+"** и **New Repository**, либо заходим на страницу https://github.com/new
+
+![New_Repo](new_repo.png)
+
+2. Указываем имя репозитория в строке **Repository name** и жмем **Create repository**
+
+* Переносим локальный репозиторий на удаленный
+
+Переходим в папку с репозиторием и в терминале набираем:
+```
+git remote add origin https://github.com/KU3MI4-SPB/test2.git
+git branch -M master
+git push -u origin master
+```
+Тем самым связываем наш локальшый и удаленный репозиторий
+
+* Клонируем удаленный репозиторий на локальный
+
+1. Создаем папку для локального репозитория 
+2. Переходим в нее и набираем в терминале: 
+```
+git clone https://github.com/KU3MI4-SPB/test2.git
+```
+
+* Делаем **Fork** репозитория
+
+1. Переходим на любой нужный нам репозиторий на **GitHub** и нажимаем кнопку **Fork**
+2. Тем самым мы переносим этот репозиторий к себе на учетную запись
+3. Далее мы можем внести изменения в код и предложить их автору репозитория
+4. Для этого так же создаем новую папку и в ней из терминала набираем:
+```
+git clone https://github.com/KU3MI4-SPB/ForHomeWork_Git.git
+```
+получаем ответ
+```
+Cloning into 'ForHomeWork_Git'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 1 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+```
+5. Переходим с папку с форком репозитория
+```
+cd .\ForHomeWork_Git\
+```
+6. Создаем новую ветку для того чтобы все изменения делать в ней
+```
+git branch KU3MI4_SPB
+```
+7. Переходим в эту ветку
+```
+git checkout KU3MI4_SPB
+```
+8. Вносим вне нужные нам изменения в код
+9. Добавляем все новые изменения и файлы, если таковые есть в репозиторий командой:
+```
+git add .
+```
+10. И добавляем финальный коммит:
+```
+git commit -m 'add my instruction'
+```
+
+* Предлагаем автору наши изменения **Pull request**
+
+1. Переходим в репозиторий на своем аккаунте **GitHub**
+2. Меняем ветку на ту в которой делали изменения и жмем кнопку **Pull request**
 
 
 .............................................................................
