@@ -9,4 +9,5 @@
 * Отправить изменения на GitHub.
 * На сайте GitHub выполнить Pull request.
 
-+ Создал файл, который назывется Remote_Repositories_md 
++ Создал файл, который назывется Remote_Repositories_md.
++ Завершил работу над проектом.
