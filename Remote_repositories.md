@@ -11,7 +11,8 @@
 
  + ![Fork на странице](fork.png)
  + ![Your repositories](repo.png)
-
+ + ![folder](folder.png)
+ 
  3. Кликаем на кнопку Code и копирует URL-адрес удаленного репозитория.
 
  ## Основыне команды
