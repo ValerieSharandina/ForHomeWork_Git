@@ -1,89 +1,143 @@
 # Работа с Git
 
 ## Проверка наличия установленного Git
-В терминале выполняем команду `git --version`, она выводит версию Git.
+ Вывод установленной версии Git:
+
+    git --version
+
 
 ## Установка Git
 Установка Git в Arch Linux:
 
-`sudo pacman -S git`
+    sudo pacman -S git
 
 ## Настройка Git
 Ввод имени пользователя и почты:
 
-```
-git config --global user.name "username"
-git config --global user.email "useremail"
-```
+    git config --global user.name "username"
+    git config --global user.email "useremail"
 
 Чтобы посмотреть изменения:
-`git config --list`
+
+    git config --list
 
 ## Инициализация Git
 Чтобы инициализировать git:
-`git init`
+
+    git init
 
 ## Добавление файлов в индекс
 Добавить файл в индекс:
-`git add "filename"`
+
+    git add "filename"
 
 Добавить все файлы директории в индекс:
-`git add .`
+
+    git add .
 
 ## Коммиты
 Создание коммита с сообщением:
-`git commit -m "message"`
+
+    git commit -m "message"
 
 Одновременное добавление всех файлов в индекс и коммит:
-`git commit -am "message"`
+
+    git commit -am "message"
 
 Коммит с открытием текстового редактора:
-`git commit`
+
+    git commit
 
 ## История
 Просмотр истории:
-`git log`
+
+    git log
 
 Просмотр краткой истории (с перемещением по коммитам):
-`git reflog`
+
+    git reflog
 
 ## Переход по истории
 Переход на старый коммит:
-`git checkout <hash>`
+
+    git checkout <hash>
 
 Переход обратно к последнему коммиту (HEAD):
-`git checkout <branch_name>`
+
+    git checkout <branch_name>
 
 ## Diff
 Просмотр изменений текущего состояния файлов относительно последнего коммита.
-`git diff`
+
+    git diff
 
 ## Ветки
 Вывод списка доступных веток:
-`git branch`
+
+    git branch
 
 Создать новую ветку:
-`git branch <branch_name>`
+
+    git branch <branch_name>
 
 Переключение на ветку:
-`git checkout <branch_name>`
+
+    git checkout <branch_name>
 
 Создать новую ветку и сразу на нее переключиться:
-`git checkout -b <branch_name>`
+
+    git checkout -b <branch_name>
 
 Удалить ветку, которая была слита в основную или загружена на удаленный сервер:
-`git branch -d <branch_name>`
+
+    git branch -d <branch_name>
 
 Удалить ветку, которая не была слита в основную или загружена на удаленный сервер:
-`git branch -D <branch_name>`
+
+    git branch -D <branch_name>
 
 Переименовать ветку:
-`git branch -m <old_name> <new_name>`
+
+    git branch -m <old_name> <new_name>
 
 Слияние ветки <branch_name> в текущую:
-`git merge <branch_name>`
+
+    git merge <branch_name>
 
 ## Конфликт при слиянии
 Если после создания новой ветки одна и та же строка изменилась по-разному на двух ветках,
 то при слиянии происходит конфликт:
 ![image not found](conflict.png)
+
+## Работа с удаленным репозиторием
+Добавить удаленный репозиторий:
+
+    git remote add <remote_name> <https/ssh link>
+
+Удалить удаленный репозиторий:
+
+    git remote remove <remote_name>
+
+Переименовать удаленный репозиторий:
+
+    git remote rename
+
+Список удаленных репозиториев:
+
+    git remote
+
+Загрузить изменения текущей ветки в репозиторий:
+
+    git push
+
+Скачать изменения из репозитория для текущей ветки:
+
+    git pull
+
+Скачать изменения из репозитория для всех веток:
+
+    git fetch
+
+Создать локальную копию удаленного репозитория:
+
+    git clone <repo_link>
