@@ -1,4 +1,4 @@
-![](git_logo.png)
+![logo Git](img/git_logo.png)
 # Краткая инструкция по GIT
 
 ## 1. Проверка системы на наличие GIT ##
@@ -152,7 +152,7 @@ _git config --global user.email myEmail@example.com_</font>
 
 
 Не хочу конфликт
-![](konflict.png)
+![conflict](img/konflict.png)
 
 ##  10. Графическое отображение веток ##
 
@@ -160,4 +160,48 @@ _git config --global user.email myEmail@example.com_</font>
 
 <font color=gree size=3> git log --graph</font>
 
+# Работа с GITHUB #
 
+## 1. FORK ##
+
+Находим необходимый нам репозиторий и нажимаем кнопку FORK, тем самым закидывая актуальную версию репозитория себе на аккаунт GITHUB
+![conflict](img/fork.png)
+
+## 2. Клонирование репозитория
+
+Для того, чтобы скачать репозиторий себе на локальный компьютер, необходимо скопировать адрес репозитория в GITHUB
+
+![clone](img/clone1.png)
+
+а в терминале ввести команду 
+
+<font color=gree size=3> git clone скопированный URL</font>
+
+![clone](img/clone2.png)
+
+## 3. Смена веток и фиксирование изменений
+
+После клонирования репозитория обычно меняют ветку стандартной командой
+
+<font color=gree size=3> git checkout название  ветки </font>
+
+<font color=gree size=3> git checkout название  ветки </font>
+
+Производят доработки репозитория  и сохраняют изменения стандартными командами 
+
+<font color=gree size=3> git add название файла  </font>
+
+<font color=gree size=3> git commit -m "Название коммита" </font>
+
+
+## Отправка на свой репозиторий
+
+Отправка изменений производится командой 
+
+<font color=gree size=3> git push -set-upstream origin Название репозитория </font>
+
+## PULL REQUEST
+
+Для отправки изменений в изначальный репозиторий, необходимо нажать кнопку PULL REQUEST  в своем репозитории GitHUB
+
+После этого автор изначального репозитория решит о слиянии вашей ветки с основным репозиторием.
