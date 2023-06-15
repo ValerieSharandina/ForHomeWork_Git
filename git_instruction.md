@@ -85,3 +85,11 @@
 4. Зайти в появившуюся папку (cd folder_name)
 5. Создать новую ветвь (git checkout -b branch_name || git branch branch_name + git checkout branch_name)
 
+### Как внести изменения в чужой проект?
+
+1. Закоммитить изменения (git add file_name; git commit -m "message")
+2. Ввести команду git push --set-upstream origin branch_name
+3. В форкнутой репозитории на своём аккаунте GitHub нажать кнопку "Compare & pull request"
+4. Описать, какие изменения были внесены, и почему стоит владельцу проекта стоит принять твои изменения
+5. Отправить pull request
+
