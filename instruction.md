@@ -88,3 +88,7 @@ Git-logo.svg.png или *.png
 Команда git clone url позволяет скачать репозиторий по ссылки https (ssh) в вашь проект.
 
 Пример git clone https://github.com/Onixfff/introductionToVersionControl1Workshop.git
+
+## Для сливания из удалённого репозитория новой версии программы есть каманда git pull
+
+Команда позволяет взять последние обновления из удаленного репозитория и автоматически сделает merge с вашей версией
