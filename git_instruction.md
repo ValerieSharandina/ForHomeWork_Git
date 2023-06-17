@@ -153,6 +153,7 @@ git merge <имя ветки из которой получаем изменен
 ![Request](request.png)
 Результат после нажатия кнопки *Create pull request* ниже
 ![Create](create.png)
+
 ***
 Более подробная информация по командам Git имеется на сайте [git-scm.com](http://git-scm.com) в раделе [Documentation](https://git-scm.com/book/ru/v2/Приложение-C%3A-Команды-Git-Основные-команды).
 ***
