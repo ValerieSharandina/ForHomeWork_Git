@@ -16,6 +16,15 @@ git config –global user.email “[email address]”
 git init [repository name]
 ```
 
+## `git clone`
+Эта команда используется для получения репозитория по существующему URL-адресу.
+
+Пример:
+
+```
+git clone [url] 
+```
+
 
 
 
