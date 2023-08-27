@@ -44,3 +44,9 @@ git log –-graph
 Пример:
 
 git show [commit]
+5. git tag
+Эта команда используется для присвоения тегов указанному коммиту.
+
+Пример:
+
+git tag [commitID]
