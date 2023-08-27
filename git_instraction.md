@@ -50,6 +50,7 @@ git show [commit]
 Пример:
 
 git tag [commitID]
+
 6. git branch
 + Эта команда выводит список всех локальных веток текущего репозитория.
 
@@ -67,3 +68,12 @@ git branch [branch name]
 Пример:
 
 git branch -d [branch name]
+
+
+7. git config
+Эта команда устанавливает имя автора и адрес электронной почты соответственно, которые будут использоваться с вашими коммитами.
+
+Пример:
+
+git config –global user.name “[name]”
+git config –global user.email “[email address]”
