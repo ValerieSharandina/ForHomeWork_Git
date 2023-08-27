@@ -50,3 +50,20 @@ git show [commit]
 Пример:
 
 git tag [commitID]
+6. git branch
++ Эта команда выводит список всех локальных веток текущего репозитория.
+
+Пример:
+
+git branch
++ Эта команда создает новую ветку.
+
+Пример:
+
+git branch [branch name]
+
++ Эта команда удаляет ветку функции.
+
+Пример:
+
+git branch -d [branch name]
