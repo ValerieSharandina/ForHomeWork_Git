@@ -249,3 +249,11 @@ git checkout -b [branch name]
 
 
 
+## `git merge`
+Эта команда объединяет историю указанной ветки с текущей веткой.
+
+Пример:
+
+```
+git merge [branch name]
+```
