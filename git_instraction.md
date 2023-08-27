@@ -78,11 +78,30 @@ git branch -d [branch name]
 git config –global user.name “[name]”
 git config –global user.email “[email address]”
 
-2. git init
+8. git init
 
 Эта команда используется для запуска нового репозитория.
 
 Пример:
 
 git init [repository name]
+
+9. git clone
+Эта команда используется для получения репозитория по существующему URL-адресу.
+
+Пример:
+
+git clone [url]
+
+10. git add
+- Эта команда добавляет файл в промежуточную область.
+
+Пример:
+
+git add [file]
+
+- Эта команда добавляет один или несколько файлов в промежуточную область.
+
+Пример:
+git add *
 
