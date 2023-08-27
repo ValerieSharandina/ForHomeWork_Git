@@ -7,5 +7,15 @@
 git config –global user.name “[name]”         
 git config –global user.email “[email address]”
 ````
+## `git init`
+Эта команда используется для запуска нового репозитория.
+
+Пример:
+
+```
+git init [repository name]
+```
+
+
 
 
