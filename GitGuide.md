@@ -110,5 +110,12 @@ git merge *<имяветки>*
 Чтобы сравнить изменения и увидеть разницу нужно нажать *Compare Changes*.
 
 ## 10. Работа с удаленными репозиториями
+git clone *<url>*
+
+git remote add origin *<url>*
+
+git pull
+
+git push
 
 ## 11. Как делать "Pull Request"
