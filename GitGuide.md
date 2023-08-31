@@ -127,4 +127,6 @@ git push *<url>*
 git remote add origin *<url>*
 
 ## 11. Как делать "Pull Request"
-git push --set-upstream origin Dmitriy_S
+Для того чтобы не делать изменения напрямую в master(оригинальной ветке) и отправлять свои изменения только в свою ветку нужно выполнить команду:
+
+git push --set-upstream origin *<вашаветка>*
