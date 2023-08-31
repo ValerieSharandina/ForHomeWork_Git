@@ -119,3 +119,4 @@ git pull
 git push
 
 ## 11. Как делать "Pull Request"
+git push --set-upstream origin Dmitriy_S
