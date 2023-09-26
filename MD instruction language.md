@@ -111,3 +111,5 @@
 * git push origin отправляет репозиторий на платформу
 
 Теперь после отправки в удаленный репозиторий мы используем кнопку "pull request" на платформу
+
+![button_pull_request](button_pull_request.png)
