@@ -98,6 +98,40 @@ There is one more interesting function in Git called *git log --graph*. It will 
 
 ![Git Log Graph](graph.png)
 
+## Forking to you repo 
+Firstly you need to "fork" a repo from the host to your GitHub. Just click on the buttom "Fork" and select "create a new fork". 
+
+![Forking](forking.png)
+
+After that follow to your homepage, you will see the "forking one" repo. 
+
+## Copying or making a clone 
+Then you need to clone this repository locally to your Develope Sreda (Usually VSCode). Click on that project and push the green buttom "Code" and copy repository URL using command *git clone (ctrl+V)*. 
+
+![Copying](codeandcopy.png)
+
+You'll see all other people work and tasks. 
+
+
+## Changing in a new branch
+Open file with the task in Integrated Terminal in your VSCode and create a new branch, where you will do the task. You can use command *git checkout -b (branch name)* to switch to the new branch. 
+
+Make all the changes, don't forget to add and to commit them with actually well-known commands. 
+
+## Pushing 
+After work is done you need to push all the changes to you repo in the GitHub. It's like sending it into some Cloud Service.  Enter *git push* command. If everythin is alright you will see a new command, Git suggets to you. 
+
+![Pushing](pushin.png) 
+
+Just enter suggesting command and your work will be shown up in your Repo at Github.
+
+## Pull and Request 
+
+If you've done everything right you will see a buttom "pull and request" at your forked project repository. 
+
+![pull](pull_request.png)
+
+
 ## Errors
 
 The most popular error, while using Git is forgetting "commiting". If you don't commit your changes, the programm will not be able to work probably. Luckily Git helps you to understand that, just enter git status from time to time: 
