@@ -74,3 +74,4 @@
 Команда *pull request* отправляет запрос владельцу репозитория на вливание изменений в репозиторий. Команда выполняется через сайт GitHub  (Pull request - New pull request - выбираем branch - Create pull request).
 
 не высвечивается compare and pull request...
+печаль..
