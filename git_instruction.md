@@ -58,5 +58,6 @@ Git checkout - переключение между различными верс
 Чтобы удалить ветку в терминале используется команда git branch --delete [branch-name], где branch-name имя ветки. Команда удаляет ветку [branch-name] в локальном репозитории. 
 ![conflict merge and remov](conflict_between_merging_branches_and_removing_branches.png)
 
-Разрешение конфдикта - метод принятия обоих изменений. 
+Разрешение конфликта - метод принятия обоих изменений. 
 ![both changes](accept_both_changes.png)
+
