@@ -1,3 +1,7 @@
+# Скрин с гита
+
+![git](git.png)
+
 ![Logo](logo.png)
 
 # Работа с git
