@@ -7,4 +7,4 @@
 * Дополнить инструкцию разделами по работе с удалёнными репозиториями, pull request.
 * Зафиксировать изменения (коммиты).
 * Отправить изменения на GitHub.
-* На сайте GitHub выполнить Pull request.
+* На сайте GitHub выполнить Pull request.qqqqqqqqqqqqqqqqqqqqqqqqqqqqqgit
